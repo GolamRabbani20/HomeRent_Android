@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F6BC2B"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:padding="10dp"
+
+        android:text="Log in"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Gmail"
+        android:drawableStart="@drawable/ic_email"
+        android:background="@drawable/edit"
+        android:elevation="8dp"
+        android:paddingStart="8dp"
+        android:drawablePadding="6dp"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/ic_key"
+        android:drawablePadding="6dp"
+        android:elevation="8dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="8dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/Btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"/>
+
+
+</LinearLayout>

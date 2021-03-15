@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F6BC2B"
+    android:layout_height="match_parent"
+    tools:context=".SelectArea">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Area"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="30dp"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/charabag"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Charabag"
+            android:layout_marginRight="25dp"
+            android:padding="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/kumkumari"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Kumkumari"
+
+            android:padding="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/khagan"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="25dp"
+            android:text="Khagan"
+
+            android:padding="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/dottopara"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Dottopara"
+
+            android:padding="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
